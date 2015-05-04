@@ -11,6 +11,10 @@
  * credentials from accidentally being committed into version control.
  */
 
-return array(
-    // ...
+//config/autoload/local.php
+  return array(
+        'db' => array(
+            'username' => 'zend',
+            'password' => 'zend',
+      )
 );
